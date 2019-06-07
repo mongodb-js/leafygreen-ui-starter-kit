@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
+import styled from '@emotion/styled/macro';
+
 import './App.css';
+
+const Title = styled.h1`
+  font-weight: bold;
+  color: green;
+`;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header
+        css={css`
+          text-align: center;
+        `}
+      >
+        <Title>@leafygreen-ui starter-kit!</Title>
       </header>
+      <div css={{ width: '400px', margin: '0 auto' }}>
+        So many components to play with!
+      </div>
     </div>
   );
 }
