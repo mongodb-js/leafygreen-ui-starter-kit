@@ -9,6 +9,16 @@ What this has built-in:
 - [React Router](https://reacttraining.com/react-router/)
 - Every `@leafygreen-ui` component pre-installed, ready to use!
 
+## Installation
+
+To get started with your own copy:
+
+```
+npx degit mongodb-js/leafygreen-ui-starter-kit my-app
+cd my-app
+npm start
+```
+
 Enjoy!
 
 ---
