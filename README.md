@@ -1,3 +1,18 @@
+# leafygreen-ui-starter-kit
+
+A (slightly) opinionated starter kit for making applications with [@leafygreen-ui](https://github.com/mongodb/leafygreen-ui).
+
+What this has built-in:
+
+- Built on top of [create-react-app](https://facebook.github.io/create-react-app/)
+- [emotion](https://emotion.sh/)
+- [React Router](https://reacttraining.com/react-router/)
+- Every `@leafygreen-ui` component pre-installed, ready to use!
+
+Enjoy!
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
