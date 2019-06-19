@@ -16,6 +16,7 @@ To get started with your own copy:
 ```
 npx degit mongodb-js/leafygreen-ui-starter-kit my-app
 cd my-app
+npm install
 npm start
 ```
 
